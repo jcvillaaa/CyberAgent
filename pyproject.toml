@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "langchain-demo"
+version = "0.1.0"
+description = ""
+authors = ["jcvillaaa <juancamilovillaagudelo@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = {extras = ["google-vertexai"], version = "^0.3.19"}
+langchain-openai = "^0.3.7"
+langchain-community = "^0.3.18"
+google-ai-generativelanguage = "0.6.16"
+langchain-google-genai = "^2.0.11"
+langchain-google-community = {extras = ["gmail"], version = "^2.0.7"}
+mypy = "^1.15.0"
+langgraph = "^0.4.3"
+transformers = "^4.52.1"
+torch = "^2.7.0"
+sentencepiece = "^0.2.0"
+sacremoses = "^0.1.1"
+streamlit = "^1.45.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
